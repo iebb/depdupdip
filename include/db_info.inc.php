@@ -1,13 +1,13 @@
 <?php @session_start();
 	ini_set("display_errors","Off");
 static 	$DB_HOST="localhost";
-static 	$DB_NAME="jol";
-static 	$DB_USER="root";
-static 	$DB_PASS="root";
+static 	$DB_NAME="[YOUR_DB_NAME]";
+static 	$DB_USER="[YOUR_DB_USER]";
+static 	$DB_PASS="[YOUR_DB_PASS]";
 	// connect db 
-static 	$OJ_NAME="Wetta";
+static 	$OJ_NAME="[YOUR_OJ_NAME]";
 static 	$OJ_HOME="./";
-static 	$OJ_ADMIN="wetta@live.fi";
+static 	$OJ_ADMIN="[YOUR_EMAIL]";
 static 	$OJ_DATA="/home/judge/data";
 static 	$OJ_BBS="discuss";//"bbs" for phpBB3 bridge or "discuss" for mini-forum
 static  $OJ_ONLINE=false;
@@ -27,23 +27,23 @@ static  $OJ_MEMPORT=11211;
 static  $SAE_STORAGE_ROOT="http://hustoj-web.stor.sinaapp.com/";
 static  $OJ_LOGIN_MOD="hustoj";
 
-static $OJ_OPENID_PWD = '8a367fe87b1e406ea8e94d7d508dcf01';
+static $OJ_OPENID_PWD = '********************************';
 
 /* weibo config here */
 static  $OJ_WEIBO_AUTH=true;
-static  $OJ_WEIBO_AKEY='2507368036';
-static  $OJ_WEIBO_ASEC='6aef581fe4859c8f1ebb346dbb710a56';
+static  $OJ_WEIBO_AKEY='**********';
+static  $OJ_WEIBO_ASEC='********************************';
 static  $OJ_WEIBO_CBURL='http://www.wetta.in/login_weibo.php';
 
 /* renren config here */
 static  $OJ_RR_AUTH=true;
-static  $OJ_RR_AKEY='8417176d43864f57b51f93910e556ced';
-static  $OJ_RR_ASEC='0a246cc750004cdab35938a334e7e7ad';
+static  $OJ_RR_AKEY='********************************';
+static  $OJ_RR_ASEC='********************************';
 static  $OJ_RR_CBURL='http://www.wetta.in/login_renren.php';
 /* qq config here */
 static  $OJ_QQ_AUTH=true;
 static  $OJ_QQ_AKEY='100296713';
-static  $OJ_QQ_ASEC='f5ffff1c81d6e39bc4b557111a6f34f5';
+static  $OJ_QQ_ASEC='********************************';
 static  $OJ_QQ_CBURL='http://www.wetta.in/login_qq.php';
 
 

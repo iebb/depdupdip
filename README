@@ -1,0 +1,8 @@
+[1]
+This OJ is based on HUSTOJ Project.
+[2]
+Configure:
+include/db_info.inc.php
+[3]
+Install:
+import sql from INSTALL file.

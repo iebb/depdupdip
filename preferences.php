@@ -11,16 +11,12 @@
 		exit(0);
 	}
 
-$sql="SELECT `poj_uid`,`poj_pwd`,`i1_uid`,`i1_pwd`,`bz_uid`,`bz_pwd`,`template` FROM `users` WHERE `user_id`='".$_SESSION['user_id']."'";
+$sql="SELECT `i1_uid`,`i1_pwd`,`template` FROM `users` WHERE `user_id`='".$_SESSION['user_id']."'";
 $result=mysql_query($sql);
 $rowsx=mysql_fetch_array($result);
-$uid=$rowsx[0];
-$pwd=$rowsx[1];
-$uid2=$rowsx[2];
-$pwd2=$rowsx[3];
-$uid1=$rowsx[4];
-$pwd1=$rowsx[5];
-$sl=$rowsx[6];
+$uid2=$rowsx[0];
+$pwd2=$rowsx[1];
+$sl=$rowsx[3];
 unset($_SESSION['tmpl']);
 $sql="SELECT `ppp`,`customhtml` FROM `preferences` WHERE `user_id`='".$_SESSION['user_id']."'";
 $result=mysql_query($sql);

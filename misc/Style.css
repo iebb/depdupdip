@@ -1,0 +1,74 @@
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #939393;
+  	background-attachment: fixed;
+  	background-position: center;
+}
+body,td,th {
+	font-size: 12px;
+	font-family: Tahoma;
+	color: #7B7B7B;
+	line-height: 18px;
+}
+a:link,a:visited,area,map {
+	color:#7B7B7B; text-decoration:none;
+}
+a:hover,a:active {
+	color:#7B7B7B; text-decoration:underline;
+}
+
+input,select {
+	font-size: 12px;
+	font-family: Tahoma;
+	border: 2px groove;
+	padding-top: 0px;
+}
+textarea{
+	font-size: 12px;
+	font-family: "Courier New";
+	border: 2px groove;
+	padding-top: 0px;
+}
+.TouMing {
+	filter: Alpha(Opacity=80);
+}
+.style1 {
+	color: #CC0000;
+	font-weight: bold;
+}
+.style2 {
+	color: #FF9900;
+	font-weight: bold;
+}
+.style3 {
+	color: #C6C6C6;
+	font-weight: bold;
+}
+.style5 {color: #CC0000}
+.stylefornew {
+	font-family: "Courier New";
+}
+.styletext {
+	color: #FFFFFF;
+}
+.tx {
+	font-size: 9pt;
+	border: 2px groove ;
+	padding-top: 0px;
+    }
+.btxx {
+	width:55px;
+	font-size:9pt;
+	height:19px;
+	cursor: hand;
+	background-position: center center;
+	border-top: 0px outset #eeeeee;
+	border-right: 0px outset #888888;
+	border-bottom: 0px outset #888888;
+	border-left: 0px outset #eeeeee;
+	padding-top: 4px;
+	background-repeat: repeat-x;
+	}
